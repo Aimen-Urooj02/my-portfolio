@@ -40,7 +40,7 @@ export default function Contact() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-6 text-sm font-semibold text-gray-500">
-             <span>Phone: +92 300 0000000</span>
+             <span>Phone: +92 325 0863148</span>
              <span className="hidden sm:block w-[1px] h-4 bg-gray-300"></span>
              <span>Mail: aimenurooj.dev@gmail.com</span>
           </div>

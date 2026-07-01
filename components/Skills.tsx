@@ -58,19 +58,19 @@ export default function Skills() {
         {/* Right Column: Timeline */}
         <div className="relative pl-0 md:pl-8 lg:pl-16">
           {/* Vertical Line */}
-          <div className="absolute left-[11px] md:left-[130px] lg:left-[130px] top-2 bottom-0 w-[2px] bg-gray-200 hidden md:block"></div>
+          <div className="absolute left-[11px] md:left-[163px] top-2 bottom-0 w-[2px] bg-gray-200 hidden md:block"></div>
           
           <div className="space-y-12 relative z-10">
             {experiences.map((exp, index) => (
               <div key={index} className="relative flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10 group">
                 
                 {/* Date */}
-                <div className="md:w-32 flex-shrink-0 text-left md:text-right pr-2">
-                  <span className="font-bold text-gray-900 text-sm md:text-base">{exp.date}</span>
+                <div className="md:w-36 flex-shrink-0 text-left md:text-right pr-2">
+                  <span className="font-bold text-gray-900 text-sm md:text-base whitespace-nowrap">{exp.date}</span>
                 </div>
                 
                 {/* Orange Dot Indicator */}
-                <div className="hidden md:flex absolute left-0 md:left-[119px] lg:left-[119px] w-6 h-6 bg-primary rounded-full border-4 border-white shadow-sm flex-shrink-0 z-10 transform group-hover:scale-125 transition-transform"></div>
+                <div className="hidden md:flex absolute left-0 md:left-[152px] w-6 h-6 bg-primary rounded-full border-4 border-white shadow-sm flex-shrink-0 z-10 transform group-hover:scale-125 transition-transform"></div>
                 
                 {/* Content */}
                 <div className="flex-1 border-l-2 md:border-l-0 border-gray-200 pl-6 md:pl-0">

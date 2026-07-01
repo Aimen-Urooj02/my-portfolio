@@ -63,17 +63,17 @@ export default function Hero() {
           </div>
 
           {/* Stats — plain floating text, evenly distributed along right edge */}
-          <div className="absolute top-[8%] right-0 lg:-right-4 text-center z-20">
+          <div className="absolute top-[8%] left-[calc(100%+24px)] lg:left-[calc(100%+32px)] text-left z-20 whitespace-nowrap">
             <h3 className="text-3xl lg:text-4xl font-bold text-gray-900">4+</h3>
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mt-1">AI Projects<br/>Completed</p>
           </div>
           
-          <div className="absolute top-[46%] right-0 lg:-right-4 -translate-y-1/2 text-center z-20">
+          <div className="absolute top-[46%] left-[calc(100%+24px)] lg:left-[calc(100%+32px)] -translate-y-1/2 text-left z-20 whitespace-nowrap">
             <h3 className="text-3xl lg:text-4xl font-bold text-gray-900">100%</h3>
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mt-1">Dedication<br/>&amp; Passion</p>
           </div>
 
-          <div className="absolute top-[82%] right-0 lg:-right-4 text-center flex flex-col items-center z-20">
+          <div className="absolute top-[82%] left-[calc(100%+24px)] lg:left-[calc(100%+32px)] text-left flex flex-col items-start z-20 whitespace-nowrap">
             <h3 className="text-3xl lg:text-4xl font-bold text-gray-900">A+</h3>
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mt-1 mb-1">Grade Average</p>
             <div className="flex gap-1">
