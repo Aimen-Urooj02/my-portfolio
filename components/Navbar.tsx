@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="bg-white rounded-full"></div>
             <div className="bg-white rounded-full"></div>
           </div>
-          Aimen
+          aimenurooj
         </Link>
 
         {/* Links */}

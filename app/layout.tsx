@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Aimen Urooj | AI & Automation Enthusiast",
-  description: "Portfolio of Aimen Urooj, Software Engineering Student.",
+  title: "aimenurooj | AI & Automation Enthusiast",
+  description: "Portfolio of aimenurooj, Software Engineering Student.",
 };
 
 export default function RootLayout({

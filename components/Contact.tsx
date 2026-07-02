@@ -52,7 +52,7 @@ export default function Contact() {
 
         {/* Bottom Copyright & Socials */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <span className="text-gray-900 font-bold text-sm">Aimen Urooj</span>
+          <span className="text-gray-900 font-bold text-sm">aimenurooj</span>
           <p className="text-gray-500 text-sm font-medium text-center md:text-left">
             Copyright © 2026 Aimen Urooj. All rights reserved
           </p>
